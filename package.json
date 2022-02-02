@@ -1,24 +1,41 @@
 {
-    "name": "rusty-snippy",
-    "displayName": "rusty-snippy",
-    "description": "rust language snippets",
-    "publisher": "nenjotsu",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "rust",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    },
-    "author": {"name": "nenjotsu"},
-    "repository": "https://github.com/nenjotsu/rusty-snippy.git",
-    "icon": "https://raw.githubusercontent.com/nenjotsu/rusty-snippy/master/rusty-snippy.jpg"
+  "name": "rusty-snippy",
+  "displayName": "rusty-snippy",
+  "description": "rust language snippets",
+  "publisher": "nenjotsu",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "rust",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "author": {
+    "name": "nenjotsu"
+  },
+  "license": "MIT License",
+  "homepage": "https://github.com/nenjotsu/rusty-snippy/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/nenjotsu/rusty-snippy/issues",
+    "email": "nenjotsu@protonmaila.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nenjotsu/rusty-snippy.git"
+  },
+  "galleryBanner": {
+    "color": "#C66300",
+    "theme": "dark"
+  },
+  "icon": "rusty-snippy.png",
+  "main": "./out/extension",
+  "activationEvents": ["onLanguage:rust"]
 }
