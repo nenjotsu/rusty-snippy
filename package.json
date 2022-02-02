@@ -36,6 +36,5 @@
     "theme": "dark"
   },
   "icon": "rusty-snippy.png",
-  "main": "./out/extension",
   "activationEvents": ["onLanguage:rust"]
 }
