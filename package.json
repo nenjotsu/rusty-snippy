@@ -35,6 +35,5 @@
     "color": "#C66300",
     "theme": "dark"
   },
-  "icon": "rusty-snippy.png",
-  "activationEvents": ["onLanguage:rust"]
+  "icon": "rusty-snippy.png"
 }
