@@ -1,0 +1,21 @@
+{
+    "name": "rusty-snippy",
+    "displayName": "rusty-snippy",
+    "description": "rust language snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "rust",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "author": {"name": "nenjotsu"}
+}
