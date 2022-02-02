@@ -1,65 +1,79 @@
-# rusty-snippy README
+# rusty-snippy
 
-This is the README for your extension "rusty-snippy". After writing up a brief description, we recommend including the following sections.
+A simple set of snippets for the [Rust](https://www.rust-lang.org/) programming language.
 
-## Features
+## Snippets
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Most rust keywords have simple two letter triggers, i.e. the first two letters of the keyword itself, making them dead easy to recall. Of course these expand to more than just the keyword.
 
-For example if there is an image subfolder under your extension project workspace:
+- im => `impl`
+- el => `else`
+- en => `enum`
+- fo => `for`
+- fn => `fn`
+- f- => `fn name() -> {...}`
+- f= => `() => {...}`
+- if => `if`
+- le => `let`
+- ma => `match`
+- mo => `mod`
+- st => `struct`
+- tr => `trait`
+- ty => `type`
+- us => `use`
 
-\!\[feature X\]\(images/feature-x.png\)
+In addition, some of the triggers above have modifier letters postfixed for more elaborate expansions.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- eni => enum with `impl`
+- eng => generic `enum`
+- enig => generic `enum` with `impl`
+- ife => `if` with `else`
+- ifl => `if let`
+- ifle => `if let x = y {...} else {...}`
+- imf => `impl T for Q`
+- img => generic `impl`
+- lem => `let mut`
+- ler => `let ref`
+- lerm => `let ref mut`
+- mob => `mod name {...}` (b for brackets)
+- sti => `struct` with `impl`
+- stg => generic `struct`
+- stig => generic `struct` with `impl`
+- trg => generic `trait`
+- tyg => generic `type`
+- usa => `use` `as`
+- usb => `use module::{...}` (b for brackets)
+- us\* => `use module::*`
 
-## Requirements
+There are also a few other helpers and odds and ends.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- ec => `extern crate`
+- eca => `extern crate as`
+- opt => `Option<...>`
+- res => `Result<...>`
+- from => `impl From<...> for ...`
+- | => multiline lambda
+- main => `main` function def
+- new => `new` constructor def
+- \# => `#[...(...)]`
+- cfg => `#[cfg(...)]`
+- cff => `#[cfg(feature="...")]`
+- drv => `#[derive(...))]`
+- drv\* => derive common attrs
+- ass => `assert!(...)` (pardon my french)
+- asse => `assert_eq!(...)`
+- mr => `macro_rules!`
+- pdb => `println!("... = {:?}", ...);` (print debug)
+- pln => `println!(...);`
+- un => `unimplemented!() // TODO`
+- unr => `unreachable!(...)`
+- vec => `vec![...]`
+- test => `#[test]` with function def
+- testm => `#[cfg(test)]` with module def
+- todo => `// TODO: ...`
 
-## Extension Settings
+## Feedback
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Feedback and suggestions appreciated. Snippets you are missing? I missed a good tab stop? Something is terribly wrong? Or you'd just like to buy me a pizza?
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Submit an [issue](https://github.com/nenjotsu/rusty-snippy/issues) or a [pull request](https://github.com/nenjotsu/rusty-snippy/pulls).

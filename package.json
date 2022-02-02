@@ -2,6 +2,7 @@
     "name": "rusty-snippy",
     "displayName": "rusty-snippy",
     "description": "rust language snippets",
+    "publisher": "nenjotsu",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.63.0"
@@ -17,5 +18,7 @@
             }
         ]
     },
-    "author": {"name": "nenjotsu"}
+    "author": {"name": "nenjotsu"},
+    "repository": "https://github.com/nenjotsu/rusty-snippy.git",
+    "icon": "https://raw.githubusercontent.com/nenjotsu/rusty-snippy/master/rusty-snippy.jpg"
 }
