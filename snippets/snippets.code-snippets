@@ -239,8 +239,20 @@
     ]
   },
   "attribute": {
-    "prefix": "#",
+    "prefix": "#[]",
     "body": ["#[${1:name}($2)]"]
+  },
+  "allow attribute": {
+    "prefix": "al",
+    "body": ["#[allow($1)]"]
+  },
+  "allow attribute dead_code": {
+    "prefix": "dc",
+    "body": ["#![allow(dead_code$1)]"]
+  },
+  "allow attribute unused_variables": {
+    "prefix": "unu",
+    "body": ["#![allow(unused_variables$1)]"]
   },
   "cfg attribute": {
     "prefix": "cfg",

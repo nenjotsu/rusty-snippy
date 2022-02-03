@@ -2,6 +2,8 @@
 
 A simple set of snippets for the [Rust](https://www.rust-lang.org/) programming language.
 
+![](rusty-snippy.gif)
+
 ## Basic Snippets
 
 |shortcut|equivalent|
@@ -60,6 +62,9 @@ A simple set of snippets for the [Rust](https://www.rust-lang.org/) programming 
 |main | `main` function def|
 |new | `new` constructor def|
 |\# | `#[...(...)]`|
+|al| `#[allow($1)]` |
+|dc | `#![allow(dead_code)]`|
+|unu | `#![allow(unused_variables)]`
 |cfg | `#[cfg(...)]`|
 |cff | `#[cfg(feature="...")]`|
 |drv | `#[derive(...))]`|
