@@ -61,7 +61,7 @@ A simple set of snippets for the [Rust](https://www.rust-lang.org/) programming 
 |\| | `multiline lambda`|
 |main | `main` function def|
 |new | `new` constructor def|
-|\# | `#[...(...)]`|
+|at | `#[...(...)]` attributes| 
 |al| `#[allow($1)]` |
 |dc | `#![allow(dead_code)]`|
 |unu | `#![allow(unused_variables)]`
