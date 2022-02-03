@@ -3,7 +3,7 @@
   "displayName": "rusty-snippy",
   "description": "rust language snippets",
   "publisher": "nenjotsu",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.63.0"
   },
